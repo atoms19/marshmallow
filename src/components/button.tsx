@@ -20,9 +20,15 @@ const Button = (props: ButtonProps) => {
       class={`${local.loading ? "hover:border-zinc-700" : "cursor-pointer hover:border-blue-400"} dark:bg-zinc-900 rounded-lg border-1 border-transparent bg-zinc-100 px-4 py-2 text-base font-medium shadow-xs transition-colors ${local.class || ""}`}
       onClick={local.onClick}
       disabled={local.loading}
+      aria-busy={local.loading}
+      aria-live="polite"
       {...others}
     >
-      {local.loading ? <Spinner class="animate-spin" /> : local.children}
+      {local.loading ? (
+        <Spinner class="animate-spin" aria-hidden="true" />
+      ) : (
+        local.children
+      )}
     </button>
   );
 };

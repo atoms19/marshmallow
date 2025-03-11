@@ -32,7 +32,11 @@ const removeToast = (id: string) => {
 
 const Toaster = () => {
   return (
-    <div class="fixed bottom-4 right-4 space-y-2">
+    <div
+      class="fixed bottom-4 right-4 space-y-2"
+      role="alert"
+      aria-live="assertive"
+    >
       <For each={toasts()}>
         {(toast) => (
           <div
@@ -52,6 +56,7 @@ const Toaster = () => {
               <button
                 class="ml-1 -mr-1.5 text-lg font-bold leading-none cursor-pointer"
                 onClick={() => removeToast(toast.id)}
+                aria-label="Close toast"
               >
                 <X size={16} class="mt-0.5" />
               </button>

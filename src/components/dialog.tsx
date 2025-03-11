@@ -12,18 +12,26 @@ const Dialog = (props: DialogProps) => {
   return (
     <div
       class={`fixed inset-0 flex items-center justify-center bg-black/50 ${props.class}`}
+      role="dialog"
+      aria-labelledby="dialog-title"
+      aria-describedby="dialog-content"
     >
       <div class="bg-zinc-50 dark:bg-zinc-950 rounded-lg shadow-lg p-6 pt-5 md:w-96 w-80">
         <div class="flex justify-between items-center mb-4">
-          <h2 class="text-xl font-medium">{props.title}</h2>
+          <h2 id="dialog-title" class="text-xl font-medium">
+            {props.title}
+          </h2>
           <button
             onClick={props.onClose}
             class="text-lg font-bold leading-none cursor-pointer -mt-1"
+            aria-label="Close dialog"
           >
             <X size={16} />
           </button>
         </div>
-        <div class="mt-2">{props.content}</div>
+        <div id="dialog-content" class="mt-2">
+          {props.content}
+        </div>
       </div>
     </div>
   );

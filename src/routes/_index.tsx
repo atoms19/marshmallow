@@ -13,7 +13,9 @@ const Index = () => {
   return (
     <div class="flex items-center justify-center h-screen flex-col">
       <h1 class="mb-4 text-3xl font-bold">Welcome to Marshmallow!</h1>
-      <Button onClick={incrementCount}>Count?</Button>
+      <Button onClick={incrementCount} aria-label="Increment count">
+        Count?
+      </Button>
     </div>
   );
 };

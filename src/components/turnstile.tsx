@@ -82,7 +82,7 @@ const Turnstile = (props: TurnstileProps) => {
 
   return (
     <Show when={turnstileState() === "loaded"}>
-      <div ref={ref} />
+      <div ref={ref} aria-live="polite" />
     </Show>
   );
 };
