@@ -1,7 +1,4 @@
 import "./app.css";
-import "@fontsource-variable/hanken-grotesk/wght.css";
-import "@fontsource-variable/hanken-grotesk/wght-italic.css";
-
 import { lazy } from "solid-js";
 import { Router, Route } from "@solidjs/router";
 
