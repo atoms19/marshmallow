@@ -12,6 +12,7 @@
     "@fontsource-variable/hanken-grotesk": "^5.2.5",
     "@solidjs/router": "^0.15.3",
     "@tailwindcss/vite": "^4.0.12",
+    "lucide-solid": "^0.479.0",
     "solid-js": "^1.9.5",
     "tailwindcss": "^4.0.12"
   },
