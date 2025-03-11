@@ -1,0 +1,175 @@
+/* Sohne Extraleicht (Extra Light) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-Extraleicht.woff2") format("woff2"),
+        url("/fonts/Sohne-Extraleicht.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Sohne Extraleicht Kursiv (Extra Light Italic) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-ExtraleichtKursiv.woff2") format("woff2"),
+        url("/fonts/Sohne-ExtraleichtKursiv.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Sohne Leicht (Light) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-Leicht.woff2") format("woff2"),
+        url("/fonts/Sohne-Leicht.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Sohne Leicht Kursiv (Light Italic) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-LeichtKursiv.woff2") format("woff2"),
+        url("/fonts/Sohne-LeichtKursiv.ttf") format("truetype");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Sohne Buch (Book/Regular) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-Buch.woff2") format("woff2"),
+        url("/fonts/Sohne-Buch.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Sohne Buch Kursiv (Book/Regular Italic) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-BuchKursiv.woff2") format("woff2"),
+        url("/fonts/Sohne-BuchKursiv.ttf") format("truetype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Sohne Kraftig (Medium) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-Kraftig.woff2") format("woff2"),
+        url("/fonts/Sohne-Kraftig.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Sohne Kraftig Kursiv (Medium Italic) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-KraftigKursiv.woff2") format("woff2"),
+        url("/fonts/Sohne-KraftigKursiv.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Sohne Halbfett (Semibold) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-Halbfett.woff2") format("woff2"),
+        url("/fonts/Sohne-Halbfett.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Sohne Halbfett Kursiv (Semibold Italic) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-HalbfettKursiv.woff2") format("woff2"),
+        url("/fonts/Sohne-HalbfettKursiv.ttf") format("truetype");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Sohne Dreiviertelfett (DemiBold/Bold) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-Dreiviertelfett.woff2") format("woff2"),
+        url("/fonts/Sohne-Dreiviertelfett.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Sohne Dreiviertelfett Kursiv (DemiBold/Bold Italic) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-DreiviertelfettKursiv.woff2") format("woff2"),
+        url("/fonts/Sohne-DreiviertelfettKursiv.ttf") format("truetype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Sohne Fett (Bold/Extra Bold) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-Fett.woff2") format("woff2"),
+        url("/fonts/Sohne-Fett.ttf") format("truetype");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Sohne Fett Kursiv (Bold/Extra Bold Italic) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-FettKursiv.woff2") format("woff2"),
+        url("/fonts/Sohne-FettKursiv.ttf") format("truetype");
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Sohne Extrafett (Black) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-Extrafett.woff2") format("woff2"),
+        url("/fonts/Sohne-Extrafett.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Sohne Extrafett Kursiv (Black Italic) */
+@font-face {
+    font-family: "Sohne";
+    src:
+        url("/fonts/Sohne-ExtrafettKursiv.woff2") format("woff2"),
+        url("/fonts/Sohne-ExtrafettKursiv.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
