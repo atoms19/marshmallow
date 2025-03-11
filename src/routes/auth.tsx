@@ -1,7 +1,7 @@
 const Auth = () => {
   return (
     <>
-      <h1 class="text-gray">Auth page</h1>
+      <h1>Auth page</h1>
     </>
   );
 };
